@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64"]
+
+[project]
+name = "bbench"
+version = "0.1.0"
+description = "Thin wrapper around HuggingFace Datasets for Bayesian benchmarks"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [
+    { name = "Artem Artemev", email = "art.art.v@gmail.com" },
+]
+dependencies = [
+    "numpy",
+    "datasets",
+]
