@@ -24,7 +24,7 @@ With pip:
 ```bash
 pip install -e /path/to/bbench
 ```
-C
+
 ## Quick start
 
 ```python
